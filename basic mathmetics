@@ -1,0 +1,17 @@
+import os
+os.system('cls')
+str="welcome to my first calculator"
+print(str.lower())
+x=int(input("enter your no:"))
+y=int(input("enter your no:"))
+z=input("PLs select the valid operator +,-,*,/")
+if(z=="+"):
+    print("your answer is",x+y)
+elif(z=="-"):
+     print("your answer is",x-y)
+elif(z=="*"):
+     print("your answer is",x*y)
+elif(z=="/"):
+      print("your answer is",x/y)
+else:
+     print("invalid operator or this is basic calculator")
